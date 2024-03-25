@@ -12,9 +12,9 @@ ha_domain: ollama_conversation
 ha_integration_type: service
 ---
 
-The Ollama integration adds a conversation agent powered by a local [Ollama](https://ollama.com/) in Home Assistant.
+The **Ollama** {% term integration %} adds a conversation agent powered by a local [Ollama](https://ollama.com/) in Home Assistant.
 
-This conversation agent is unable to control your house. The Ollama conversation agent can be used in automations, but not as a [sentence trigger](/docs/automation/trigger/#sentence-trigger). It can only query information that has been provided by Home Assistant. To be able to answer questions about your house, Home Assistant will need to provide Ollama with the details of your house, which include areas, devices and their states. 
+This conversation agent is unable to control your house. The Ollama conversation agent can be used in automations, but not as a [sentence trigger](/docs/automation/trigger/#sentence-trigger). It can only query information that has been provided by Home Assistant. To be able to answer questions about your house, Home Assistant will need to provide Ollama with the details of your house, which include areas, devices, and their states. 
 
 This integration requires an external Ollama server, which is available for macOS, Linux, and Windows. Follow the [download instructions](https://ollama.com/) to install the server.
 
